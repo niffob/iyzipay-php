@@ -4,13 +4,13 @@ namespace Iyzipay;
 
 class IyzipayResource extends ApiResource
 {
-    private $status;
-    private $errorCode;
-    private $errorMessage;
-    private $errorGroup;
-    private $locale;
-    private $systemTime;
-    private $conversationId;
+    public $status;
+    public $errorCode;
+    public $errorMessage;
+    public $errorGroup;
+    public $locale;
+    public $systemTime;
+    public $conversationId;
 
     protected static function getHttpHeaders(Request $request, Options $options)
     {
